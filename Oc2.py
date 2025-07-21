@@ -174,3 +174,4 @@ if st.session_state.option_chain_df is not None:
         data=csv,
         file_name=f"{symbol.lower()}_option_chain.csv",
         mime="text/csv"
+    )
